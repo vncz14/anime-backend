@@ -300,5 +300,5 @@ class DBPopulate():
             raise Exception("no anime with this mal id exists in our database lol")
 
 
-
+DBPopulate = DBPopulate()
 DBPopulate.initialPopulation(pages=7)
